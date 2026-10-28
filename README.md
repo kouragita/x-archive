@@ -69,5 +69,10 @@ work as your own. Use it the way you'd use a bookmark folder.
 - [x] download best MP4, convert to MP3
 - [x] render a shareable card
 - [ ] archive a whole thread
-- [ ] organise saved posts by topic from their text
-- [ ] the same thing inside Pocket, triggered from the share sheet
+- [x] organise saved posts by topic from their text — in the Android app, from a
+      small keyword table plus hashtags
+- [x] the same thing inside Pocket, triggered from the share sheet — the Rust
+      worker resolves and downloads on the device, with resumable transfers
+
+The Android side lives in the `pocket-media` branch of the challenge repository; this
+repository stays the command-line tool.
